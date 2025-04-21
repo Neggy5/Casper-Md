@@ -10,7 +10,7 @@ function stringToBool(str) {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "MALVIN~i4wnHboS#KjHlXXXQay70ERcIKZWOlUT8-_BhzcKkCXI_rgrDpW4",
+    SESSION_ID: process.env.SESSION_ID || "CASPER~i4wnHboS#KjHlXXXQay70ERcIKZWOlUT8-_BhzcKkCXI_rgrDpW4",
 
     DELETE_LINKS: stringToBool(process.env.DELETE_LINKS || "true"),
 
@@ -30,11 +30,11 @@ module.exports = {
 
     CUSTOM_REACT: stringToBool(process.env.CUSTOM_REACT || "false"),
 
-    STICKER_NAME: process.env.STICKER_NAME || "✦MALVIN-XD✦",
+    STICKER_NAME: process.env.STICKER_NAME || "✦CASPER-MD✦",
 
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,💦,💛,🤖,💙,🩵,🌚,☠️,✨,🩶,👑",
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2349079055953",
 
     OWNER_NAME: process.env.OWNER_NAME || "✦ᴍᴀʟᴠɪɴ ᴋɪɴɢ✦",
 
@@ -52,11 +52,11 @@ module.exports = {
 
     ANTI_BAD: stringToBool(process.env.ANTI_BAD || "false"),
 
-    AUTO_STATUS_SEEN: stringToBool(process.env.AUTO_STATUS_SEEN || "true"),
+    AUTO_STATUS_SEEN: stringToBool(process.env.AUTO_STATUS_SEEN || "false"),
 
     AUTO_STATUS_REPLY: stringToBool(process.env.AUTO_STATUS_REPLY || "false"),
 
-    AUTO_STATUS_REACT: stringToBool(process.env.AUTO_STATUS_REACT || "true"),
+    AUTO_STATUS_REACT: stringToBool(process.env.AUTO_STATUS_REACT || "false"),
 
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ✦ᴍᴀʟᴠɪɴ xᴅ v2🚀🔥✦*",
 
@@ -90,7 +90,7 @@ module.exports = {
 
     READ_CMD: stringToBool(process.env.READ_CMD || "false"),
 
-    DEV: process.env.DEV || "263714757857",
+    DEV: process.env.DEV || "2349079055953",
 
     ANTI_VV: stringToBool(process.env.ANTI_VV || "true"),
 
@@ -98,23 +98,23 @@ module.exports = {
 
     CURRENT_STATUS: stringToBool(process.env.CURRENT_STATUS || "true"),
 
-    version: process.env.version || "4.0.0",
+    version: process.env.version || "1.0.0",
 
     START_MSG: process.env.START_MSG || `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ ᴍᴀʟᴠɪɴ xᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
 
     *ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ ᴍᴀʟᴠɪɴ ᴍᴏᴅs🚩* 
 
     > Joɪɴ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ (ᴀ ᴍᴜsᴛ): ⤵️  
-    https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+    https://whatsapp.com/channel/0029VaySwxF9Bb67U6rkUB2i
 
     > sᴜʙsᴄʀɪʙᴇ ʏᴛ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴛᴜᴛᴏʀɪᴀʟs
-    https://youtube.com/@malvintech2
+    https://youtube.com/@botking001?si=b8X3XaRWKR3ydI1a
 
     - *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
     > - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
 
     > ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sʜᴀʀᴇ, sᴛᴀʀ &ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ⬇️ 
-    https://github.com/XdKing2/MALVIN-XD
+    https://github.com/Neggy5/CASPER-MD
 
-    > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ 🇿🇼`
+    > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ 🇳🇬`
 };
