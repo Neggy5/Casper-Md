@@ -1,17 +1,17 @@
 /*
-Project Name : MALVIN XMD
-Creator      : Malvin King ( Mr Lord Malvin )
-Repo         : https//github.com/kingmalvn/MALVIN-XMD
-Support      : wa.me/263714757857
+Project Name : CASPER MD
+Creator      : NEGLEVEL ( Lord of Bots )
+Repo         : https//github.com/Neggy5/CASPER-MD 
+Support      : wa.me/2349079055953
 */
 
 
 
 
-const { malvin } = require('../malvin');
+const { Caper } = require('../casper');
 const config = require('../settings');
 
-malvin({
+casper({
     pattern: "user",
     react: "✅", 
     desc: "Get owner number",
