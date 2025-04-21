@@ -1,8 +1,8 @@
 /*
-Project Name : MALVIN XMD
-Creator      : Malvin King ( Mr Lord Malvin )
-Repo         : https://github.com/kingmalvn/MALVIN-XMD
-Support      : wa.me/263714757857
+Project Name : CASPER MD
+Creator      : NEGLEVEL ( Lord of Bots )
+Repo         : https://github.com/Neggy5/CASPER-MD
+Support      : wa.me/2349079055953
 */
 
 const config = require('../settings');
@@ -10,7 +10,7 @@ const { malvin, commands } = require('../malvin');
 
 malvin({
     pattern: "intro",
-    alias: ["king"],
+    alias: ["Lord"],
     react: "🧠",
     desc: "get owner dec",
     category: "info",
@@ -20,11 +20,11 @@ malvin({
 }) => {
     try {
         let madeMenu = `
-   *MALVIN XD WHATSAPP USER BOT* 💫
+   *CASPER MD WHATSAPP USER BOT* 💫
 
                 *MY MISSION*
 
-🐼 This is the result of my hard work, and I, Malvin King, own the bot's rights and code rights. Therefore, you have no chance to change and submit my bot under any circumstances. There are 100+ commands, logo, thumbnail, banner maker commands, AI chatbot features, and more.
+🐼 This is the result of my hard work, and I, NEGLEVEL, own the bot's rights and code rights. Therefore, you have no chance to change and submit my bot under any circumstances. There are 100+ commands, logo, thumbnail, banner maker commands, AI chatbot features, and more.
 
 🐼 The main hope of creating this bot is to take full advantage of WhatsApp and make its work easier.
 
@@ -32,13 +32,15 @@ malvin({
 
 ⚠️ If your WhatsApp account gets banned by using this, I am not responsible. You should take responsibility for it.
 
-👨‍💻 OWNER: Malvin King 
+👨‍💻 OWNER: NEGLEVEL 
 
-🎡 *GITHUB:*  https://github.com/XdKing2/
+🎡 *GITHUB:*  https://github.com/Neggy5/
 
-🎡 *GITHUB:*  https://github.com/XdKing2/MALVIN-XD
+🎡 *GITHUB:*  https://github.com/Neggy5/CASPER-MD
 
-🪩 *MY GROUP:* https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+🖍️ *MY GROUP* https://chat.whatsapp.com/Ij8D2TyoMIo1LhF79m6Z0Y
+
+🪩 *MY CHANNEL:https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
 
 *Please star the repo and follow me on GitHub* 
 `;
@@ -55,7 +57,7 @@ malvin({
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363398430045533@newsletter',
-                        newsletterName: '🪀『 𝙼𝙰𝙻𝚅𝙸𝙽-𝚇𝙳 』🪀',
+                        newsletterName: '🪀『 CASPER-MD 』🪀',
                         serverMessageId: 143
                     }
                 }
