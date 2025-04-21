@@ -1,8 +1,8 @@
 /*
-Project Name : MALVIN XD
-Creator      : Malvin King (Mr. Lord Malvin)
-Repo         : https://github.com/XdKing2/MALVIN-XD
-Support      : wa.me/263714757857
+Project Name : CASPER MD
+Creator      : NEGLEVEL ( Lord OF BOTS)
+Repo         : https://github.com/Neggy5/CASPER-MD
+Support      : wa.me/2349079055953
 
 ### ⚠️ Disclaimer
 
@@ -30,21 +30,20 @@ malvin({
 
 *👋 Hello ${pushname}!*
 
-I am *Malvin Xd*, a WhatsApp-based multi-device bot created by *Malvin King* from Zimbabwe.  
+I am *CASPER MD*, a WhatsApp-based multi-device bot created by *Malvin King* from Zimbabwe.  
 My sole purpose is to reduce the burden or cost of purchasing data bundles by allowing users to download songs, apps, videos, and movies using WhatsApp bundles.
 
 For more information, please visit:
 
-> *SOURCE CODE* : https://github.com/XdKing2/MALVIN-XD  
-> *FOLLOW OWNER* : https://github.com/XdKing2/  
-> *OWNER* : https://wa.me/263780166288/?text=ᴍᴀʟᴠɪɴ-xᴅ+Fan+Here  
-> *SUPPORT CHANNEL* : https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A  
-> *INSTAGRAM* : https://instagram.com/Techlord01/  
-> *YOUTUBE* : https://youtube.com/@malvintech2/
+> *SOURCE CODE* : https://github.com/Neggy5/CASPER-MD 
+> *FOLLOW OWNER* : https://github.com/Neggy5/  
+> *OWNER* : https://wa.me/2349079055953/?text=ᴍᴀʟᴠɪɴ-xᴅ+Fan+Here  
+> *SUPPORT CHANNEL* : https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A    
+> *YOUTUBE* : https://youtube.com/@BOTKING/
 
 *RELEASE DATE* — *7 APRIL 2025*
 
-*— Lord Malvin*
+*— NEGLEVEL👑*
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 `;
@@ -61,7 +60,7 @@ For more information, please visit:
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363398430045533@newsletter',
-                        newsletterName: '🪀『 𝙼𝙰𝙻𝚅𝙸𝙽-𝚇𝙳 』🪀 ',
+                        newsletterName: '🪀『 CASPER-MD 』🪀 ',
                         serverMessageId: 143
                     }
                 }
@@ -71,7 +70,7 @@ For more information, please visit:
 
         // Send audio message
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/XdKing2/MALVIN-DATA/raw/refs/heads/main/autovoice/alive.mp3' },
+            audio: { url: 'https://github.com/Neggy5/MALVIN-DATA/raw/refs/heads/main/autovoice/alive.mp3' },
             mimetype: 'audio/mp3',
             ptt: true
         }, { quoted: mek });
