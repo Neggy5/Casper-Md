@@ -2,7 +2,7 @@
 
 ## 🔒 Supported Versions
 
-I actively maintain and update **MALVIN-XD** to ensure security and stability. The following table outlines the supported versions:
+I actively maintain and update **CASPER-MD** to ensure security and stability. The following table outlines the supported versions:
 
 | Version  | Supported | Security Updates |
 |----------|----------|-----------------|
@@ -14,13 +14,13 @@ I actively maintain and update **MALVIN-XD** to ensure security and stability. T
 
 If you discover a security issue, please **do not** open a public issue. Instead, follow these steps:
 
-1. **Contact me privately** via [GitHub Security Advisories](https://github.com/kingmalvin4/MALVIN-XD/security/advisories) or email `nexusxd.bot@gmail.com`.
+1. **Contact me privately** via [GitHub Security Advisories](https://github.com/Neggy5/CASPER-MD/security/advisories) or email `basseyp671@gmail.com`.
 2. **Provide details** of the vulnerability, including steps to reproduce.
 3. **Allow me time** to investigate and patch the issue before disclosing it publicly.
 
 ## 🔐 Security Best Practices
 
-To ensure safe usage of **MALVIN-XD**, follow these security guidelines:
+To ensure safe usage of **CASPER-MD**, follow these security guidelines:
 
 - **Do not share your API keys, tokens, or sensitive data** in public repositories.
 - **Regularly update** the bot to the latest version for security patches.
@@ -30,7 +30,7 @@ To ensure safe usage of **MALVIN-XD**, follow these security guidelines:
 
 ## ⚠️ User Responsibilities
 
-By using **MALVIN-XD**, you agree to the following:
+By using **CASPER-MD**, you agree to the following:
 
 - You will **not use the bot for illegal, abusive, or malicious activities**.
 - You acknowledge that misuse may lead to **WhatsApp account bans**.
@@ -38,7 +38,7 @@ By using **MALVIN-XD**, you agree to the following:
 
 ## 🛡️ Liability Disclaimer
 
-- **MALVIN-XD is an open-source project**. Use it at your own risk.
+- **CASPER-MD is an open-source project**. Use it at your own risk.
 - The developers **do not store or track user data**.
 - We **are not affiliated with WhatsApp Inc.** and take no responsibility for actions taken against users by third parties.
 
@@ -47,5 +47,5 @@ By using **MALVIN-XD**, you agree to the following:
 - Security vulnerabilities will be **patched as soon as possible** upon discovery.
 - Users will be notified of critical security updates via **GitHub Releases** and **WhatsApp Channel**.
 
-**Thank you for helping keep MALVIN-XD secure!** 🚀
+**Thank you for helping keep CASPER-MD secure!** 🚀❤️
 
