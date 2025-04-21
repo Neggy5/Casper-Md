@@ -1,16 +1,16 @@
-const { malvin } = require('../malvin');
+const { casper } = require('../casper');
 
 // Official Links
-const CHANNEL_LINK = "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A";
-const SUPPORT_LINK = "https://chat.whatsapp.com/Di4685k99JS5RGdS2Z4WMi";
+const CHANNEL_LINK = "https://whatsapp.com/channel/0029VaySwxF9Bb67U6rkUB2i";
+const SUPPORT_LINK = "https://chat.whatsapp.com/Ij8D2TyoMIo1LhF79m6Z0Y";
 
 /**
  * 🟢 Command: Channel
- * 📢 Get the official Malvin channel link
+ * 📢 Get the official Casper channel link
  */
 malvin({
     pattern: "channel",
-    desc: "Get the official Malvin WhatsApp Channel link.",
+    desc: "Get the official Casper WhatsApp Channel link.",
     react: "🚀",
     category: "support",
     use: ".channel",
@@ -18,7 +18,7 @@ malvin({
 }, async (_, mek, __, { reply }) => {
     try {
         reply(
-            `🎉 *Welcome to the MALVIN-XD Official Channel!*\n\n` +
+            `🎉 *Welcome to the CASPER-MD Official Channel!*\n\n` +
             `🔥 Stay ahead with exclusive updates, new features, and exciting announcements.\n\n` +
             `🔗 *Join Now:* ${CHANNEL_LINK}\n\n` +
             `_Tap the link above and be part of something amazing!_ 🚀`
@@ -31,11 +31,11 @@ malvin({
 
 /**
  * 🟢 Command: Support
- * 🛠️ Get help & join the Malvin support group
+ * 🛠️ Get help & join the Casper support group
  */
 malvin({
     pattern: "support",
-    desc: "Join the Malvin-XD Support Group for assistance.",
+    desc: "Join the Casper-MD Support Group for assistance.",
     react: "💡",
     category: "support",
     use: ".support",
@@ -43,7 +43,7 @@ malvin({
 }, async (_, mek, __, { reply }) => {
     try {
         reply(
-            `🤝 *Welcome to the MALVIN-XD Support Hub!*\n\n` +
+            `🤝 *Welcome to the CASPER-MD Support Hub!*\n\n` +
             `🛠️ Have questions? Facing issues? Or just want to connect with fellow users?\n` +
             `💬 Join our *official support group* where you can ask for help and share feedback.\n\n` +
             `🔗 *Join Here:* ${SUPPORT_LINK}\n\n` +
