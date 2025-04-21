@@ -1,9 +1,9 @@
-const { malvin } = require('../malvin');
+const { casper } = require('../casper');
 const axios = require('axios');
 
-malvin({
-    pattern: "malvinai",
-    alias: ["aiimg", "generateimg", "aiimage", "malvinai"],
+casper({
+    pattern: "Casperai",
+    alias: ["aiimg", "generateimg", "aiimage", "Casperai"],
     desc: "Generate AI Images using Stable Diffusion",
     category: "ai",
     react: "🤖",
@@ -12,20 +12,20 @@ malvin({
     try {
         if (!q) {
             const txt = `
-*⛩️ MALVIN AI IMAGE GENERATOR*
+*⛩️ CASPER AI IMAGE GENERATOR*
 
 Generate AI art based on your description.
 
-✦ 𝖴𝗌𝖺𝗀𝖾:  *.malvinai <description>*
-✦ 𝖤𝗑𝖺𝗆𝗉𝗅𝖾:  *.malvinai A glowing dragon flying over a neon city*
+✦ 𝖴𝗌𝖺𝗀𝖾:  *.casperai <description>*
+✦ 𝖤𝗑𝖺𝗆𝗉𝗅𝖾:  *.casperai A glowing dragon flying over a neon city*
 
 *Try one of the styles below:*
             `.trim();
 
             const buttons = [
-                { buttonId: `.malvinai cyberpunk samurai in rain`, buttonText: { displayText: "Cyberpunk Samurai" }, type: 1 },
-                { buttonId: `.malvinai anime girl in forest`, buttonText: { displayText: "Anime Girl" }, type: 1 },
-                { buttonId: `.malvinai realistic galaxy landscape`, buttonText: { displayText: "Galaxy Landscape" }, type: 1 }
+                { buttonId: `.casperai cyberpunk samurai in rain`, buttonText: { displayText: "Cyberpunk Samurai" }, type: 1 },
+                { buttonId: `.casperai anime girl in forest`, buttonText: { displayText: "Anime Girl" }, type: 1 },
+                { buttonId: `.casperai realistic galaxy landscape`, buttonText: { displayText: "Galaxy Landscape" }, type: 1 }
             ];
 
             return await conn.sendMessage(from, {
@@ -53,13 +53,13 @@ Generate AI art based on your description.
         await conn.sendMessage(from, {
             image: response.data,
             caption: `
-*🖼️ MALVIN ᴀɪ ɪᴍᴀɢᴇ ɢᴇɴᴇʀᴀᴛᴏʀ*
+*🖼️ CASPER ᴀɪ ɪᴍᴀɢᴇ ɢᴇɴᴇʀᴀᴛᴏʀ*
 
 ⟡ 𝙋𝙧𝙤𝙢𝙥𝙩:  ${q}
 ⟡ 𝙈𝙤𝙙𝙚𝙡: Stable Diffusion v2.1
 ⟡ 𝙍𝙚𝙨𝙪𝙡𝙩: Image successfully generated.
 
-> *Powered by MalvinAI*
+> *Powered by CasperAI*
             `.trim(),
             quoted: mek
         });
