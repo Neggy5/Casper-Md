@@ -1,12 +1,12 @@
 {
-  "name": "malvin",
+  "name": "casper",
   "version": "4.0.0",
   "description": "A WhatsApp Bot Created By Malvin King",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name malvin",
-    "stop": "pm2 stop malvin",
-    "restart": "pm2 restart malvin"
+    "stop": "pm2 stop casper",
+    "restart": "pm2 restart casper"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.16",
